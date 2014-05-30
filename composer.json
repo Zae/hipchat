@@ -1,0 +1,28 @@
+{
+    "name": "zae/hipchat",
+    "description": "HipChat API Client",
+    "keywords": ["hipchat", "api", "client", "laravel", "guzzle"],
+    "authors": [
+        {
+            "name": "Ezra Pool",
+            "email": "ezra@tsdme.nl",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "4.*",
+        "guzzlehttp/guzzle-services": "*",
+        "guzzlehttp/command": "@dev"
+    },
+    "suggest": {
+        "laravel/laravel": "This package has great integration with L4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zae\\HipChat\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
